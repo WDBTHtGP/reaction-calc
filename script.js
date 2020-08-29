@@ -41,8 +41,6 @@ function calculateTotal()
     } else {
        $("t3").text(punch_age.toString() + " years old");
     }
-     
-    $("t3").text(punch_age);
   
     if (p_ag == 0) {
     $("t1").text("Input age value!");
